@@ -6,7 +6,7 @@ a {
     display : block;
   }
   img{
-    width: 75%;
+    width: 65%;
     border: solid;
     margin-top: 40px;
     border-radius: 10px;
@@ -68,7 +68,7 @@ a {
     width: 20%;
     text-align: center;
     padding: 5px 5px 60% 5px;
-    background: #cadeef;
+    /*background: #cadeef;*/
     margin-left: 20px;
     margin-right: 10px;
     
