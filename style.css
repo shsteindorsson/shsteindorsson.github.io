@@ -1,86 +1,89 @@
 a {
-    color : #000000;
-  }
+  color : #000000;
+}
+
+aside {
+  display : block;
+}
+body{
+  font-family: 'Hepta Slab', serif;
+}
+img{
+  width: 65%;
+  border: solid;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+h1 {
+  color : #FFFFFF;
+  font-size : 180%;
+  text-align : center;
+  text-transform : uppercase;
+  padding-top: 25px;
+}
+
+h2 {
+  color : #000000;
+  font-size : 200%;
+}
+
+header {
+  background-color: #799bc1;
+  background-size: cover;
+  text-align: center;
+  margin: 0px 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+nav{
+  padding-bottom: 20px;
+}
+nav a{
+  width: 25%;
+  color: #000000;
+  display: inline-block;
+  margin: 0px 2%;
+  padding: 20px 5px;
+  border-radius: 5px;
+  background: #ffffff;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 130%;
+}
+.active{
+  opacity: 1;
+}
+p{
+  font-size: 140%;
+}
+section {
+  display: block;
+  background : #ffffff;
+  margin-left: 25%;
+}
+section img {
+  width: 25%;
+}
+.left{
+  float: left;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  padding: 5px 5px 60% 5px;
+  /*background: #cadeef;*/
+  margin-left: 20px;
+  margin-right: 10px;
   
-  aside {
-    display : block;
-  }
-  img{
-    width: 65%;
-    border: solid;
-    margin-top: 40px;
-    border-radius: 10px;
-  }
-  h1 {
-    color : #FFFFFF;
-    font-size : 180%;
-    text-align : center;
-    text-transform : uppercase;
-    padding-top: 25px;
-  }
-  
-  h2 {
-    color : #000000;
-    font-size : 200%;
-  }
-  
-  header {
-    background-color: #799bc1;
-    background-size: cover;
-    text-align: center;
-    margin: 0px 20px;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    border-radius: 10px 10px 10px 0px;
-  }
-  nav{
-    padding-bottom: 20px;
-  }
-  nav a{
-    width: 25%;
-    color: #000000;
-    display: inline-block;
-    margin: 0px 2%;
-    padding: 20px 5px;
-    border-radius: 5px;
-    background: #ffffff;
-    opacity: 0.5;
-    text-decoration: none;
-    font-size: 130%;
-  }
-  .active{
-    opacity: 1;
-  }
-  p{
-    font-size: 140%;
-  }
-  section {
-    display: block;
-    background : #ffffff;
-    margin-left: 25%;
-  }
-  section img {
-    width: 25%;
-  }
-  .left{
-    float: left;
-    display: inline-block;
-    width: 20%;
-    text-align: center;
-    padding: 5px 5px 60% 5px;
-    /*background: #cadeef;*/
-    margin-left: 20px;
-    margin-right: 10px;
-    
-  }
-  li>a{
-    color: #54198b;
-  }
-  .right{
-    width: 95%;
-    padding: 5px 0px 0px 0px;
-  }
-  .right>ul{
-    font-size: 140%;
-    line-height: 200%;
-  }
+}
+li>a{
+  color: #54198b;
+}
+.right{
+  width: 95%;
+  padding: 5px 0px 0px 0px;
+}
+.right>ul{
+  font-size: 140%;
+  line-height: 200%;
+}
